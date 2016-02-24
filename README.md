@@ -3,10 +3,10 @@
 
 
 		改写自支付宝代码
-		
+		通过居中的ViewPager和pager动画实现
 		
 
 
-![image](https://github.com/smallnew/FuCardPager/raw/master/GIF.gif)
+![image](https://github.com/smallnew/FuCardPager/raw/master/fupager.gif)
 
 
