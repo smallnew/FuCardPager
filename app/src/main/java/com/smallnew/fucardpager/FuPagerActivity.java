@@ -2,7 +2,6 @@ package com.smallnew.fucardpager;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
 import android.os.Bundle;
 import android.view.View;
 
@@ -28,9 +27,8 @@ public class FuPagerActivity extends AppCompatActivity {
     private void initPager() {
         List<View> views = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            CardView card = new CardView(this);
+            View card = new View(this);
             card.setBackgroundColor(getRandomColor());
-            card.setCardElevation(10);
             card.setTag(i);
             views.add(card);
         }
